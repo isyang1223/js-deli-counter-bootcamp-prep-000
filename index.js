@@ -17,5 +17,5 @@ function currentLine(katzDeliLine) {
   } else {
     return `The liune is currently: ${katzDeliLine.length}. ${katzDeliLine},`
   }
-  
+
 }
