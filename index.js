@@ -14,11 +14,11 @@ function nowServing(katzDeliLine){
 function currentLine(katzDeliLine) {
   if (!katzDeliLine.length){
     return `The line is currently empty.`
-  } 
+  }
   var numbersAndNames = [];
   for (var i = 0; i < katzDeliLine.length; i++){
     numbersAndNames.push(`${i + 1}. ${katzDeliLine[i]}`)
   }
-  
+
     return `The liune is currently: ${numbersAndNames}`
 };
