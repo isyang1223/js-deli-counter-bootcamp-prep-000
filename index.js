@@ -20,5 +20,5 @@ function currentLine(katzDeliLine) {
     numbersAndNames.push(`${i + 1}. ${katzDeliLine[i]}`)
   }
 
-    return `The liune is currently: ${numbersAndNames}`
+    return `The liune is currently: ${numbersAndNames.join(',')}`
 };
